@@ -1,0 +1,100 @@
+.array-container {
+    background-color: black;
+    left: 100px;
+    width: 100%;
+}
+
+.array-graph {
+    display:inline-block;
+    margin:auto;
+    width: 90%;
+    justify-content:center;
+}
+
+.array-bar {
+    /* width: 40px; */
+    background-color: turquoise;
+    display: inline-block;
+    margin: 0 1px;
+    overflow-x: hidden;
+    /* flex-wrap: nowrap; */
+}
+
+.header-container {
+    display: flex;
+    background-color:seagreen;
+    
+    height: 15vh;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.separator {
+    width:0.5%;
+    height: 100%;
+    background-color:mediumaquamarine;
+}
+
+.sizeChanger, .speedChanger {
+    color: white;
+    justify-items: center;
+    font-weight: bold;
+    padding:30px;
+    cursor: default;
+}
+input {
+    cursor: pointer;
+}
+
+button {
+    background:none;
+    /* border:none; */
+    border:0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    text-transform:uppercase;
+    font-weight:400;
+    text-align:center;
+    color:#FFFFFF;
+    cursor: pointer;
+    padding:0.5em 3em;
+}
+
+button:hover {
+    color:#DDDDDD;
+    border-color: #DDDDDD;
+}
+
+button:active {
+    color:#BBBBBB;
+    border-color: #BBBBBB;
+}
+
+
+
+
+.buttons {
+    color: black;
+    border-color: black;
+}
+
+.buttons:hover {
+    color: black;
+    border-color: black;
+}
+
+.buttons:visited {
+    color: black;
+    border-color: black;
+}
+.buttons:active {
+    color: black;
+    border-color: black;
+}
+
+
+  
+
+
+
+
